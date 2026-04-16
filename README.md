@@ -269,7 +269,7 @@ The current generator/build pipeline creates the 200-task anonymous benchmark by
       <td width="150">
         <a href="https://github.com/jd-SearchEngines"><img width="70" height="70" src="https://github.com/jd-SearchEngines.png?s=40" alt="pic"></a><br>
         <a href="https://github.com/jd-SearchEngines">jd-SearchEngines</a>
-        <p> ByteDance </p>
+        <p> Shopee </p>
       </td>
     </tr>
   </tbody>
