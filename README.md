@@ -255,6 +255,28 @@ The current generator/build pipeline creates the 200-task anonymous benchmark by
 
 ---
 
+
+
+## 🤝 Main contributors ( welcome to join us! )
+<table border="0">
+  <tbody>
+    <tr align="center">
+      <td width="130">
+        <a href="https://github.com/Zhuang-Zhuang-Liu"><img width="70" height="70" src="https://github.com/Zhuang-Zhuang-Liu.png?s=40" alt="pic"></a><br>
+        <a href="https://github.com/Zhuang-Zhuang-Liu">ZhuangZhuangLiu</a>
+        <p> We Lab </p>
+      </td>
+      <td width="150">
+        <a href="https://github.com/jd-SearchEngines"><img width="70" height="70" src="https://github.com/jd-SearchEngines.png?s=40" alt="pic"></a><br>
+        <a href="https://github.com/jd-SearchEngines">jd-SearchEngines</a>
+        <p> ByteDance </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 ## Citation
 
 If you use MiningBench in your research, please cite:
