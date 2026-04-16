@@ -307,4 +307,7 @@ This project builds on the [MINT](https://arxiv.org/abs/2309.10691) evaluation f
 
 ## License
 
+
+
+
 This project is licensed under the MIT License. See [mint-bench/LICENSE](mint-bench/LICENSE) for details.
