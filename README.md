@@ -262,7 +262,7 @@ If you use MiningBench in your research, please cite:
 ```bibtex
 @misc{miningbench2026,
   title   = {MiningBench: An Interactive Data Mining Evaluation Benchmark for Multi-turn Reasoning and Tool Usage},
-  author  = {},
+  author  = {Zhuangzhuang Liu and Jingdong Deng},
   year    = {2026},
   note    = {https://github.com/Zhuang-Zhuang-Liu/MiningBench}
 }
