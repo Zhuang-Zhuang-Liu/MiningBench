@@ -37,9 +37,9 @@ Each task presents the model with a CSV file containing `N` feature columns and 
 
 | Split | Cnt | Difficulty | Task Type |
 |---|---|---|---|
-| Version01: anonymous | 200 | Easy*40 + Medium*70 + Hard*90  | Classification * 170 + Regression * 30 |
-| Version02: Semantic | ...ongoing | ... | ... |
-| Total | 200 |
+| Version01: Anonymous | 200 | Easy*40 + Mid*70 + Hard*90  | Class*170 + Reg*30 |
+| Version02: Semantic | ongoing | - | - |
+| Total | 200 | - | - |
 
 JSONL schema:
 
