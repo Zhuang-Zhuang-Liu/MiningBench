@@ -1,0 +1,18 @@
+{
+  "total_examples": 200,
+  "correct_examples": 81,
+  "accuracy": 0.405,
+  "finished_rate": 1.0,
+  "with_prediction_rate": 0.71,
+  "avg_assistant_turns": 3.6,
+  "avg_tool_uses": 2.82,
+  "avg_invalid_actions": 0.345,
+  "avg_total_tokens": 6247.77,
+  "avg_prompt_tokens": 5328.93,
+  "avg_completion_tokens": 918.85,
+  "terminate_reason_breakdown": {
+    "max_propose_steps": 56,
+    "max_steps": 63,
+    "task_success": 81
+  }
+}

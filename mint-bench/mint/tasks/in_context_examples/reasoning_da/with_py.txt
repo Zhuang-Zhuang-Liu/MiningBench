@@ -1,0 +1,26 @@
+Task:
+local CSV file:  `/<system_path>/region_sales.csv` contains the following rows: region,units,price
+Compute the total revenue for the `east` region, where revenue is the sum of `units * price` over matching rows.
+Output format requirement: Round to one decimal place.
+
+Assistant:
+<thought>
+This is a local CSV data analysis task. I should use Python to load the CSV, filter rows where region is east, compute units * price for each matching row, and sum them.
+</thought>
+
+<execute>
+import pandas as pd
+df = pd.read_csv("/<system_path>/region_sales.csv") 
+east_revenue = df[df["region"] == "east"].eval("units * price").sum() #筛选东部地区，计算总营收（units * price 求和）
+print(round(east_revenue, 1))
+</execute>
+
+Observation:
+433.5
+
+Assistant:
+<thought>
+The total revenue for the east region is 433.5. This already matches the required one-decimal-place format, so I can submit it directly.
+</thought>
+
+<solution> 433.5 </solution>

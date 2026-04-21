@@ -1,0 +1,45 @@
+{
+    "agent": {
+        "agent_class": "VLLMAgent",
+        "config": {
+            "model_name": "qwen/qwen3.5-2b",
+            "chat_mode": true,
+            "max_tokens": 1024,
+            "temperature": 0.0,
+            "openai.api_base": "http://localhost:1234/v1",
+            "add_system_message": false
+        }
+    },
+    "task": {
+        "task_class": "MiningBenchTask",
+        "task_type": "reasoning_da",
+        "tool_imports": [
+            [
+                "mint.tools.business_doc_search",
+                "BusinessDocSearch"
+            ]
+        ],
+        "filepath": "data/processed/mining-bench/test_prompts.json"
+    },
+    "output_dir": "data/outputs/qwen/qwen3.5-2b/F=None/max10_p1+tool+cd/reasoning_da/mining-bench",
+    "env_config": {
+        "max_steps": 10,
+        "use_tools": true,
+        "max_propose_solution": 1,
+        "count_down": true
+    },
+    "feedback_config": {
+        "feedback_agent_config": {
+            "chat_mode": true,
+            "max_tokens": 1024,
+            "temperature": 0.0,
+            "stop": [
+                "\nQ:"
+            ],
+            "agent_class": "None",
+            "model_name": "None"
+        },
+        "pseudo_human_feedback": "None",
+        "feedback_form": "None"
+    }
+}
